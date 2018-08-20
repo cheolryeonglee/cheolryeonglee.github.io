@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'consolasb';
+    src: url('../fonts/consolab.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'pinyonscript';
+    src: url('../fonts/PinyonScript-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cormorant';
+    src: url('../fonts/Cormorantsb.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+}
+
+/* Backgrounds */
+body {
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+#mainfrontline {
+    margin: auto;
+    position: absolute;
+    left: 15vw;
+    width: 50vw;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 100vh solid #AEE;
+    z-index: -1;
+}
+
+#mainbackline {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    z-index: -2;
+    border-left: 75vw solid transparent;
+    border-bottom: 75vh solid #288;
+}
+
+#whitespace {
+    width: 0;
+    height: 0;
+    left: 75vw;
+    top: 60vh;
+    position: absolute;
+    border-left: 25vw solid transparent;
+    border-bottom: 40vh solid white;
+}
+
+/* Contents */
+#profilephoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5vh solid transparent;
+    width: 45vmin;
+    border-radius: 50%;
+}
+
+#namecont {
+    text-align: center;
+}
+/* Real Name */
+h1 {
+    margin: 0;
+    font-family: 'consolasb', monospace;
+    font-size: 6vmin;
+    
+}
+/* English Name */
+h2 {
+    margin: 0;
+    font-family: 'cormorant';
+    font-size: 5vmin;
+}
+/* Rest */
+h3 {
+    font-family: 'raleway';
+    font-size: 3vmin;
+}
+/* a.k.a. */
+h6 {
+    margin: 0;
+    font-family: 'pinyonscript', cursive;
+    font-size: 4vmin;
+}
