@@ -10,6 +10,7 @@
     font-family: 'cormorant';
     src: url('../fonts/Cormorantsb.ttf') format('truetype');
 }
+/* Basic fonts */
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/Raleway-Light.ttf') format('truetype');
@@ -40,7 +41,7 @@ body {
     top: 25vh;
     z-index: -2;
     border-left: 75vw solid transparent;
-    border-bottom: 75vh solid #288;
+    border-bottom: 75vh solid #8CC;
 }
 
 #whitespace {
@@ -76,12 +77,12 @@ h1 {
 /* English Name */
 h2 {
     margin: 0;
-    font-family: 'cormorant';
+    font-family: 'cormorant', serif;
     font-size: 5vmin;
 }
 /* Rest */
 h3 {
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     font-size: 3vmin;
 }
 /* a.k.a. */
