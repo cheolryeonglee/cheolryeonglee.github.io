@@ -1,93 +1,127 @@
 @font-face {
-    font-family: 'consolasb';
-    src: url('../fonts/consolab.ttf') format('truetype');
+    font-family: 'barlow';
+    src: url('../fonts/Barlow/Barlow-Medium.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'pinyonscript';
-    src: url('../fonts/PinyonScript-Regular.ttf') format('truetype');
+    font-family: 'barlowl';
+    src: url('../fonts/Barlow/Barlow-Light.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'cormorant';
-    src: url('../fonts/Cormorantsb.ttf') format('truetype');
+    font-family: 'barlowli';
+    src: url('../fonts/Barlow/Barlow-LightItalic.ttf') format('truetype');
 }
-/* Basic fonts */
 @font-face {
-    font-family: 'raleway';
-    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+    font-family: 'tangerine';
+    src: url('../fonts/Tangerine-Regular.ttf') format('truetype');
 }
 
-/* Backgrounds */
-body {
+html, body {
+    height: 100%;
     margin: 0;
-    /* overflow: hidden; */
 }
 
-#mainfrontline {
-    margin: auto;
+#mainbg {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    left: 15vw;
-    width: 50vw;
-    border-left: 10vw solid transparent;
-    border-right: 10vw solid transparent;
-    border-top: 100vh solid #AEE;
     z-index: -1;
 }
 
-#mainbackline {
-    width: 0;
-    height: 0;
+#aboutbg {
+    width: 100%;
+    height: 100%;
+    top: 100%;
     position: absolute;
-    left: 25vw;
-    top: 25vh;
-    z-index: -2;
-    border-left: 75vw solid transparent;
-    border-bottom: 75vh solid #8CC;
+    z-index: -1;
 }
 
-#whitespace {
-    width: 0;
-    height: 0;
-    left: 75vw;
-    top: 60vh;
+#contactbg {
+    background: black;
+    width: 100%;
+    height: 100%;
+    top: 200%;
     position: absolute;
-    border-left: 25vw solid transparent;
-    border-bottom: 40vh solid white;
+    z-index: -1;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 60%;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(210, 210, 210, 0.5);
+    color: #FFFFFF;
 }
 
 /* Contents */
 #profilephoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5vh solid transparent;
-    width: 45vmin;
+    width: 40%;
     border-radius: 50%;
-}
-
-#namecont {
-    text-align: center;
 }
 /* Real Name */
 h1 {
-    margin: 0;
-    font-family: 'consolasb', monospace;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'barlow', sans-serif;
     font-size: 6vmin;
-    
 }
 /* English Name */
 h2 {
     margin: 0;
-    font-family: 'cormorant', serif;
+    font-family: 'tangerine', cursive;
     font-size: 5vmin;
-}
-/* Rest */
-h3 {
-    font-family: 'raleway', sans-serif;
-    font-size: 3vmin;
 }
 /* a.k.a. */
 h6 {
     margin: 0;
-    font-family: 'pinyonscript', cursive;
-    font-size: 4vmin;
+    font-family: 'barlowli', cursive;
+    font-size: 3vmin;
+}
+/* Info */
+#infobox {
+    margin-top: 5%;
+    text-align: center;
+}
+h3 {
+    font-family: 'barlowl', sans-serif;
+    font-weight: 200;
+    font-size: 3vmin;
+}
+
+/* ABOUT */
+#desc {
+    text-align: center;
+}
+p {
+    font-family: 'barlowl', sans-serif;
+    font-size: 2vmin;
+}
+.hl {
+    color: skyblue;
+}
+
+/* CONTACT */
+#socialm {
+    display: flex;
+    flex-wrap: wrap;
+}
+#socialm a {
+    font-size: 150px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #AEAEAE;
 }

@@ -8,19 +8,48 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </head>
     <body>
-        <!-- Backgrounds -->
-        <div id="mainfrontline"></div>
-        <div id="mainbackline"></div>
-        <div id="whitespace"></div>
-
-        <!-- Contents -->
-        <img id="profilephoto" src="./img/profilephoto.jpg" alt="profilephoto">
-        <div id="namecont">
+        <!-- index -->
+        <img id="mainbg" src="./img/mainbackground.gif" alt="mainbg">
+        <div id="index" class="main-container">
+            <img id="profilephoto" src="./img/profilephoto.jpg" alt="profilephoto">
             <h1>CHEOL-RYEONG LEE</h1>
-            <h6>&nbsp;a.k.a.</h6>
+            <hr width="20%">
             <h2>Gareth</h2>
-            <h3><i class="fas fa-id-card-alt"></i> Graphics Programmer</h3>
-            <h3><i class="fas fa-map-marker-alt"></i> Toronto, Canada</h3>
+            <div id="infobox">
+                <h3><i class="fas fa-id-card-alt"></i> Graphics Programmer</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Toronto, Canada</h3>
+            </div>
         </div>
+
+        <!-- about -->
+        <img id="aboutbg" src="./img/aboutbackground.gif" alt="aboutbg">
+        <div id="about" class="main-container">
+            <h1>ABOUT</h1>
+            <div id="desc">
+                <h3>
+                    Pursuing <span class="hl">graphics programming</span>
+                    using C++ and OpenGL as well as 
+                    <span class="hl">web development</span> with CSS, 
+                    JavaScript, jQuery, Node.js, and React
+                </h3>
+            </div>
+            <!-- SKILLS -->
+        </div>
+
+        <!-- contact -->
+        <img id="contactbg" src="./img/contactbackground.gif" alt="contactbg">
+        <div id="contact" class="main-container">
+            <h1>CONTACT</h1>
+            <div id="socialm">
+                <a href="https://ca.linkedin.com/in/cheolryeong-lee" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://cheolryeonglee.blogspot.com/" target="_blank"><i class="fab fa-blogger"></i></a>
+                <a href="mailto:message.to.gareth@outlook.com"><i class="fas fa-envelope-square"></i></a>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer id="footer">
+            <p>Copyright &copy; 2018 Cheol-ryeong Lee. All rights reserved.</p>
+        </footer>
     </body>
 </html>
