@@ -5,25 +5,51 @@ body {
 #contactfrontline {
     position: absolute;
     left: 0;
-    top: 10vh;
-    border-top: 90vh solid transparent;
+    top: 11vh;
+    border-top: 89vh solid transparent;
     border-left: 450vw solid #AEA;
     z-index: -1;
 }
 
-#frontwhitespace {
+#whitespace {
     position: absolute;
     left: 0;
-    top: 50vh;
-    border-top: 50vh solid transparent;
-    border-left: 900vw solid white;
+    top: 53vh;
+    border-top: 47vh solid transparent;
+    border-left: 25vw solid white;
 }
 
-#contactmiddleline {
+/* Contents */
+/* Title */
+h1 {
+    margin: 0;
     position: absolute;
-    left: 0;
-    top: 10vh;
-    border-top: 90vh solid transparent;
-    border-right: 100vw solid aqua;
-    z-index: -2;
+    right: 5vw;
+    top: 1vh;
+    font-family: 'consolasb', monospace;
+    font-size: 15vmin;
+    color: #AC8;
+    text-decoration: overline;
+}
+
+#contact {
+    position: absolute;
+    left: 5vw;
+    top: 75vh;
+    width: 40vw;
+    height: 20vh;
+}
+
+#contact i {
+    display: flex;
+    flex-direction: column;
+    margin: 2vmin 0;
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    font-size: 4vmin;
+    background: #CEA;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
