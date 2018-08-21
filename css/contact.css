@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#contactfrontline {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    border-top: 90vh solid transparent;
+    border-left: 450vw solid #AEA;
+}
+
+#whitespace {
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    border-top: 50vh solid transparent;
+    border-left: 500vw solid white;
+}
