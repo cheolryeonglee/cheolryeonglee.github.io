@@ -1,3 +1,9 @@
+/* Basic fonts */
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     overflow: hidden;
@@ -7,7 +13,7 @@ body {
     left: 0;
     top: 11vh;
     border-top: 89vh solid transparent;
-    border-left: 450vw solid #AEA;
+    border-left: 100vw solid #AEA;
     z-index: -1;
 }
 
@@ -40,6 +46,9 @@ h1 {
     height: 20vh;
 }
 
+#contact a {
+    text-decoration: none;
+}
 #contact i {
     display: flex;
     flex-direction: column;
@@ -52,4 +61,16 @@ h1 {
     color: white;
     justify-content: center;
     align-items: center;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    left: 25vw;
+    top: 90vh;
+}
+footer p {
+    font-family: 'raleway', sans-serif;
+    font-size: 2.5vmin;
+    color: #7A7A7A;
 }
