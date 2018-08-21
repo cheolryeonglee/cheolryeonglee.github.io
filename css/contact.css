@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'consolasb';
+    src: url('../fonts/consolab.ttf') format('truetype');
+}
 /* Basic fonts */
 @font-face {
     font-family: 'raleway';

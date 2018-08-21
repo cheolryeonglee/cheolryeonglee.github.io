@@ -1,4 +1,8 @@
 @font-face {
+    font-family: 'consolasb';
+    src: url('../fonts/consolab.ttf') format('truetype');
+}
+@font-face {
     font-family: 'cormoranti';
     src: url('../fonts/Cormorant-Italic.ttf') format('truetype');
 }
@@ -85,7 +89,7 @@ h2 {
     top: 55vh;
     font-family: 'consolasb', monospace;
     font-size: 8vmin;
-    color: black;
+    color: white;
     text-decoration: overline;
 }
 ul {
