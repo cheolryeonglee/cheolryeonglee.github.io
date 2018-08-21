@@ -8,12 +8,22 @@ body {
     top: 10vh;
     border-top: 90vh solid transparent;
     border-left: 450vw solid #AEA;
+    z-index: -1;
 }
 
-#whitespace {
+#frontwhitespace {
     position: absolute;
     left: 0;
     top: 50vh;
     border-top: 50vh solid transparent;
-    border-left: 500vw solid white;
+    border-left: 900vw solid white;
+}
+
+#contactmiddleline {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    border-top: 90vh solid transparent;
+    border-right: 100vw solid aqua;
+    z-index: -2;
 }
