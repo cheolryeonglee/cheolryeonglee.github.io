@@ -30,6 +30,7 @@ html, body {
     margin: 0;
 }
 
+/* After I can use onepage scrolling */
 #mainbg {
     width: 100%;
     height: 100%;
@@ -111,8 +112,11 @@ footer {
 /* MAIN */
 /********************************/
 #profilephoto {
-    width: 40%;
+    height: 30%;
     border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(135, 206, 235);
 }
 
 /* Real Name */
